@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 定义轨道的背景 -->
+    <item android:id="@android:id/background">
+        <clip
+            android:clipOrientation="vertical"
+            android:drawable="@drawable/ic_jiantou_3"
+            android:gravity="bottom" />
+    </item>
+    <!-- 定义轨道上已完成部分的外观-->
+    <item android:id="@android:id/progress">
+        <clip
+            android:clipOrientation="vertical"
+            android:drawable="@drawable/ic_jiantou_4"
+            android:gravity="bottom" />
+    </item>
+
+</layer-list>
