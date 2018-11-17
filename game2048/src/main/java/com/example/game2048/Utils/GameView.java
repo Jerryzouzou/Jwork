@@ -336,7 +336,9 @@ public class GameView extends LinearLayout {
         }
     }
     
-
+    /*
+    * 检查是否不能再合并卡片，不能再合并时结束游戏存储成绩
+     */
     private void checkComplete() {
         boolean complete = true;
 
@@ -361,9 +363,4 @@ public class GameView extends LinearLayout {
             DialogUtils.getAddChartDialog(mContext, MainFragment.getMainFragment().getScore());
         }
     }
-
-    
-
-    
-
 }

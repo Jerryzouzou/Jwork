@@ -81,7 +81,7 @@ public class ChartsActivity extends ActionBarActivity {
                         break;
                     case 1:
                         //第二个图标按钮---删除信息
-                        MySqlHelper mySqlHelper = new MySqlHelper(getApplicationContext(), "myapp.db", null, 1);
+                        MySqlHelper mySqlHelper = new MySqlHelper(getApplicationContext(), "game2048.db", null, 1);
                         SQLiteDatabase db = mySqlHelper.getWritableDatabase();
                         db.delete("charts", "id = ?", new String[]{String.valueOf(mList.get(position).getId())});
                         mList.remove(position);
@@ -120,7 +120,7 @@ public class ChartsActivity extends ActionBarActivity {
      * 获取排行榜数据
      */
     private void getData() {
-        MySqlHelper splHelper = new MySqlHelper(this, "myapp.db", null, 1);
+        MySqlHelper splHelper = new MySqlHelper(this, "game2048.db", null, 1);
         final SQLiteDatabase db = splHelper.getWritableDatabase();
 
         //查询数据
