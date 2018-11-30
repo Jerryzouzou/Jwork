@@ -30,7 +30,13 @@
             android:id="@+id/btn02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="null"/>
+            android:text="VPager"/>
+
+        <Button
+            android:id="@+id/btn03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VFilpper"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

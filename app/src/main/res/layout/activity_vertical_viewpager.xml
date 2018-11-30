@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:visibility="gone"
+        android:text="ajgsfjagsf"/>
+
+    <com.offer.pass.preg.customview.VerticalViewPager
+        android:id="@+id/ver_viewpager"
+        android:layout_marginLeft="100dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/lf_bg"/>
+
+</LinearLayout>

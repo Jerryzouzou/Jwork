@@ -7,10 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.offer.pass.preg.activity.RoundSeekbarDemo;
+import com.offer.pass.preg.activity.VerticalViewPagerDemo;
+import com.offer.pass.preg.activity.ViewFilpperDemo;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private int[] btnId = {R.id.btn01, R.id.btn02};
+    private int[] btnId = {R.id.btn01, R.id.btn02, R.id.btn03};
     private Context mContext;
 
     @Override
@@ -39,7 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startNewActivity(RoundSeekbarDemo.class);
                 break;
             case R.id.btn02:
-
+                startNewActivity(VerticalViewPagerDemo.class);
+                break;
+            case R.id.btn03:
+                startNewActivity(ViewFilpperDemo.class);
                 break;
         }
     }

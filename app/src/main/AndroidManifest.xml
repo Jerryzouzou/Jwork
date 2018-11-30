@@ -18,6 +18,8 @@
         </activity>
 
         <activity android:name=".activity.RoundSeekbarDemo"/>
+        <activity android:name=".activity.VerticalViewPagerDemo"/>
+        <activity android:name=".activity.ViewFilpperDemo"/>
     </application>
 
 </manifest>
