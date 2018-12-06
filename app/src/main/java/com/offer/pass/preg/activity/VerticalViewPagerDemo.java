@@ -58,7 +58,7 @@ public class VerticalViewPagerDemo extends Activity implements View.OnClickListe
         mAdapter = new MyPagerAdapter(aList);
 
         vPager.setAdapter(mAdapter);
-        vPager.setCurrentItem(1 * aList.size());
+        vPager.setCurrentItem(1000 * aList.size());
         vPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

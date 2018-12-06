@@ -1,1 +1,1 @@
-include ':app', ':game2048', ':library'
+include ':app', ':game2048', ':library', ':aidlclient', ':aidlserver'
