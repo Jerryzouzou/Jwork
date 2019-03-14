@@ -20,6 +20,10 @@
         <activity android:name=".activity.RoundSeekbarDemo"/>
         <activity android:name=".activity.VerticalViewPagerDemo"/>
         <activity android:name=".activity.ViewFilpperDemo"/>
+        <activity android:name="com.offer.pass.preg.activity.ListViewViewGoneItemDemo"/>
+        <activity android:name="com.offer.pass.preg.activity.BloomFilterDemo"/>
+        <activity android:name="com.offer.pass.preg.activity.DebugUIDemo"/>
+        <activity android:name="com.offer.pass.preg.activity.SharepreBianliDemo"/>
     </application>
 
 </manifest>

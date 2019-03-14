@@ -37,6 +37,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="VFilpper"/>
+
+        <Button
+            android:id="@+id/btn04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list"/>
+
+        <Button
+            android:id="@+id/btn05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bloom"/>
+
+        <Button
+            android:id="@+id/btn06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UI"/>
+
+        <Button
+            android:id="@+id/btn07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UI"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
